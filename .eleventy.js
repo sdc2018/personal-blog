@@ -7,6 +7,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("robots.txt");
   eleventyConfig.addPassthroughCopy("llms.txt");
+  eleventyConfig.addPassthroughCopy("b23456b7f8e94a1d9c5e6f7a8b9c0d1e.txt");
 
   // Date filter for templates (Luxon format tokens)
   eleventyConfig.addFilter("date", (dateObj, format) => {
