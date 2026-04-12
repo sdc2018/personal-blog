@@ -44,7 +44,7 @@ This is not conspiracy. This is documented history.
 
 Post-World War II, America took over the apex. Dollar became the reserve currency. Whoever controls the dollar controls global liquidity. Gulf oil money joined in after 1973 — they keep oil in dollars, America provides military protection, and Gulf royals get admitted to the global elite social circle.
 
-And Indian spiritual leaders — Sadhgurus and Sri Sris — they go to Davos, they meet these elites, they speak at their forums. Why? Because to reach global scale you need media access, political protection, financial infrastructure. Elites need them too — a spiritual figure gives legitimacy, keeps masses peaceful, provides a narrative that suffering is karma not exploitation. It is an ancient transaction. Roman emperors funded the Church. Today's elites fund their Davos saints.
+And spiritual leaders — they go to Davos, they meet these elites, they speak at their forums. Why? Because to reach global scale you need media access, political protection, financial infrastructure. Elites need them too — a spiritual figure gives legitimacy, keeps masses peaceful, provides a narrative that suffering is karma not exploitation. It is an ancient transaction. Roman emperors funded the Church. Today's elites fund their Davos saints.
 
 ---
 
@@ -62,8 +62,6 @@ After every crash, assets are cheap. Elites buy at the bottom — they have cash
 
 2008 is the clearest example. Banks created mortgage products they knew were toxic. Sold them to pension funds — the retirement savings of ordinary people. Crashed. Got bailed out with taxpayer money. Paid record bonuses in 2009. Not one senior banker went to jail.
 
-Indian SIP culture is the same story at a different scale. ₹20,000 crore per month now flows into mutual funds. This provides the liquidity that institutions need to exit at the top of cycles. The common man thinks he is building wealth. He is actually providing the exit ramp.
-
 And the law? The law always arrives after the elites have already moved.
 
 Elite exploits the system. People get angry. Government "acts." But the law is written with elite input through lobbying. By the time the law passes, elites have already shifted to the next thing. The law legitimises their new position and raises barriers for everyone else. The peasant celebrates when the law passes. The elite designed the law.
@@ -74,11 +72,11 @@ Elite exploits the system. People get angry. Government "acts." But the law is w
 
 Physical slavery ended. But something more elegant replaced it.
 
-The person with EMIs cannot strike. Cannot quit. Cannot resist. Debt is the new chain — but he chose it. He signed the loan papers. He opened the trading account. He voted for the politician who promised him growth. It all feels like freedom.
+The person with loan payments cannot strike. Cannot quit. Cannot resist. Debt is the new chain — but he chose it. He signed the loan papers. He opened the trading account. He voted for the politician who promised him growth. It all feels like freedom.
 
 Eduard Bernays — Freud's nephew, hired by American corporations in the 1920s — figured this out. Link self-worth to consumption. Make people feel that what they own is who they are. The result: people work their whole lives to buy things they don't need with money they don't have to impress people they don't like.
 
-And the left-right political divide? That is the master stroke. Keep people fighting about religion, caste, identity, nationalism. Make sure they never look upward at the economic structure above. Both political parties — in America, in India, anywhere — are funded by the same apex capital. The fight is theatre. The structure remains untouched.
+And the left-right political divide? That is the master stroke. Keep people fighting about religion, caste, identity, nationalism. Make sure they never look upward at the economic structure above. Both political parties anywhere — are funded by the same apex capital. The fight is theatre. The structure remains untouched.
 
 Antonio Gramsci called this hegemony. The ruling class does not need force when the ruled class has internalised the rulers' values as common sense. The slave believes he is free because he chose his chains.
 
@@ -86,7 +84,7 @@ Antonio Gramsci called this hegemony. The ruling class does not need force when 
 
 ## What About the Middle Class?
 
-I have tried to build genuine networks of middle class intellectuals — IIT graduates, MBAs, senior professionals. People with real ability and knowledge. And I keep hitting the same wall.
+I have tried to build genuine networks of middle class intellectuals. People with real ability and knowledge. And I keep hitting the same wall.
 
 They do not help each other. They do not share opportunities genuinely. They are too busy protecting what they have earned.
 
@@ -108,25 +106,17 @@ These are all ancient forces inside the human being. They existed long before an
 
 So here is the real question: who is actually responsible?
 
-The Bhagavad Gita has an answer. And it is uncomfortable.
-
 Human beings carry three layers of conditioning.
 
-The first is biological — ancient genetic programming. Fear, aggression, sexual drive, the need for hierarchy. Your amygdala does not know you are sitting in a Mumbai office in 2026. It is still running software designed for a savanna 100,000 years ago.
+The first is biological — ancient genetic programming. Fear, aggression, sexual drive, the need for hierarchy. Your amygdala does not know you are sitting in a NY office in 2026. It is still running software designed for a savanna 100,000 years ago.
 
 The second is environmental — family patterns, cultural conditioning, whatever your parents and grandparents went through. Epigenetics now confirms that trauma and belief patterns alter gene expression and are passed down generations. Your grandfather's scarcity anxiety may literally live in your nervous system.
-
-The third — and this is the Vedantic insight — is karmic. The soul carries impressions from previous lifetimes. Sanskaras. This is why two children born in the same family, same environment, same upbringing can be fundamentally different. They arrived with different soul-luggage, accumulated across potentially thousands of births.
-
-The sum of all three layers is what I call predisposition. Most of us live entirely inside our predispositions. We think we are choosing. We are executing old programming.
-
-And a person entirely inside their predisposition is perfectly exploitable. Their buttons are known. Their fears are predictable. Their desires are manufacturable.
 
 ---
 
 ## The Only Real Exit
 
-The Gita calls it Vivek Buddhi — discriminative intelligence. The ability to observe your own conditioning rather than being your conditioning.
+The discriminative intelligence. The ability to observe your own conditioning rather than being your conditioning.
 
 Viktor Frankl, who survived Nazi concentration camps, said it this way: "Between stimulus and response there is a space. In that space is our power to choose our response."
 
