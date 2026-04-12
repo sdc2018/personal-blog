@@ -1,0 +1,22 @@
+# Sandip Chintawar — Personal Blog
+
+> Personal thoughts on building businesses, technology, and living a good life.
+
+## About the Author
+Sandip Chintawar is Co-Founder of Cymetrix Software, a Salesforce and Data/AI consulting firm based in Mumbai, India. He writes about entrepreneurship, data & AI, leadership, and personal reflections.
+
+## Blog URL
+https://sandipsblog.netlify.app
+
+## RSS Feed
+https://sandipsblog.netlify.app/feed.xml
+
+## Topics Covered
+- Entrepreneurship and building a consulting business
+- Data, AI, and what's practically useful vs. hype
+- Leadership and team building
+- Personal growth, patience, and the long game
+- Life in Mumbai, India
+
+## Content License
+All rights reserved. Content may be referenced and linked to but not reproduced in full.

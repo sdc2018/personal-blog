@@ -2,6 +2,7 @@
 title: "Hello World"
 date: 2026-04-12
 subtitle: "Why I'm starting to write"
+description: "After two decades of building companies and thinking about life, I'm starting to write in public. Honest reflections from a founder in Mumbai."
 ---
 
 I've been building companies, raising kids, and thinking about life for two decades. Most of that thinking stayed in my head or in private notes.
