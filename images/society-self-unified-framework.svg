@@ -3,21 +3,27 @@
 <desc>A structural diagram connecting the Society of Pyramids, financial systems, psychological control, and the inner path of consciousness</desc>
 <defs>
   <style>
-    .th { font-size: 14px; font-weight: 500; font-family: -apple-system, sans-serif; }
-    .ts { font-size: 12px; font-weight: 400; font-family: -apple-system, sans-serif; }
-    .c-coral-rect { fill: #FAECE7; stroke: #993C1D; stroke-width: 0.5; }
-    .c-coral-text { fill: #712B13; }
-    .c-amber-rect { fill: #FAEEDA; stroke: #854F0B; stroke-width: 0.5; }
-    .c-amber-text { fill: #633806; }
-    .c-purple-rect { fill: #EEEDFE; stroke: #534AB7; stroke-width: 0.5; }
-    .c-purple-text { fill: #3C3489; }
-    .c-teal-rect { fill: #E1F5EE; stroke: #0F6E56; stroke-width: 0.5; }
-    .c-teal-text { fill: #085041; }
-    .c-blue-rect { fill: #E6F1FB; stroke: #185FA5; stroke-width: 0.5; }
-    .c-blue-text { fill: #0C447C; }
-    .c-gray-rect { fill: #F1EFE8; stroke: #5F5E5A; stroke-width: 0.5; }
-    .c-gray-text { fill: #444441; }
-    .label { fill: #888888; font-family: -apple-system, sans-serif; }
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+    .th { font-size: 14px; font-weight: 500; }
+    .ts { font-size: 12px; font-weight: 400; }
+    /* coral - Elite structures */
+    .c-coral > rect { fill: #FAECE7; stroke: #993C1D; stroke-width: 0.5; }
+    .c-coral text { fill: #712B13; }
+    /* amber - Financial mechanisms */
+    .c-amber > rect { fill: #FAEEDA; stroke: #854F0B; stroke-width: 0.5; }
+    .c-amber text { fill: #633806; }
+    /* purple - Psychological control */
+    .c-purple > rect { fill: #EEEDFE; stroke: #534AB7; stroke-width: 0.5; }
+    .c-purple text { fill: #3C3489; }
+    /* teal - Liberation path */
+    .c-teal > rect { fill: #E1F5EE; stroke: #0F6E56; stroke-width: 0.5; }
+    .c-teal text { fill: #085041; }
+    /* blue - Inner conditioning */
+    .c-blue > rect { fill: #E6F1FB; stroke: #185FA5; stroke-width: 0.5; }
+    .c-blue text { fill: #0C447C; }
+    /* gray - Containers */
+    .c-gray > rect { fill: #F1EFE8; stroke: #5F5E5A; stroke-width: 0.5; }
+    .c-gray text { fill: #444441; }
   </style>
   <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
     <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -25,129 +31,160 @@
 </defs>
 
 <!-- TITLE -->
-<text class="th" x="340" y="32" text-anchor="middle" font-size="15" fill="#1a1a1a">Sandip's unified framework</text>
-<text class="ts" x="340" y="50" text-anchor="middle" fill="#888888">Society · Systems · Self</text>
+<text class="th" x="340" y="32" text-anchor="middle" font-size="15" fill="#1a1a1a" font-weight="500">Sandip's unified framework</text>
+<text class="ts" x="340" y="50" text-anchor="middle" font-size="12" fill="#888">Society · Systems · Self</text>
 
 <!-- OUTER CONTAINER -->
-<rect x="28" y="64" width="624" height="560" rx="16" class="c-gray-rect" fill-opacity="0.18"/>
-<text class="ts" x="50" y="86" class="c-gray-text">The external world</text>
+<g class="c-gray">
+  <rect x="28" y="64" width="624" height="560" rx="16" fill-opacity="0.18"/>
+  <text class="ts" x="50" y="86" font-size="12">The external world</text>
+</g>
 
 <!-- APEX -->
-<rect x="200" y="95" width="280" height="52" rx="8" class="c-coral-rect"/>
-<text class="th" x="340" y="116" text-anchor="middle" dominant-baseline="central" class="c-coral-text">Society of pyramids</text>
-<text class="ts" x="340" y="134" text-anchor="middle" dominant-baseline="central" class="c-coral-text">Wealth · Power · Celebrity · Intelligence</text>
+<g class="c-coral">
+  <rect x="200" y="95" width="280" height="52" rx="8"/>
+  <text class="th" x="340" y="116" text-anchor="middle" dominant-baseline="central">Society of pyramids</text>
+  <text class="ts" x="340" y="134" text-anchor="middle" dominant-baseline="central">Wealth · Power · Celebrity · Intelligence</text>
+</g>
 
 <!-- MID ROW -->
-<rect x="38" y="178" width="140" height="44" rx="8" class="c-coral-rect"/>
-<text class="th" x="108" y="196" text-anchor="middle" dominant-baseline="central" class="c-coral-text">Old families</text>
-<text class="ts" x="108" y="212" text-anchor="middle" dominant-baseline="central" class="c-coral-text">Europe · Gulf · Anglo</text>
+<g class="c-coral">
+  <rect x="38" y="178" width="140" height="44" rx="8"/>
+  <text class="th" x="108" y="196" text-anchor="middle" dominant-baseline="central">Old families</text>
+  <text class="ts" x="108" y="212" text-anchor="middle" dominant-baseline="central">Europe · Gulf · Anglo</text>
+</g>
+<g class="c-coral">
+  <rect x="198" y="178" width="140" height="44" rx="8"/>
+  <text class="th" x="268" y="196" text-anchor="middle" dominant-baseline="central">Financial control</text>
+  <text class="ts" x="268" y="212" text-anchor="middle" dominant-baseline="central">Fed · BIS · fiat system</text>
+</g>
+<g class="c-coral">
+  <rect x="358" y="178" width="140" height="44" rx="8"/>
+  <text class="th" x="428" y="196" text-anchor="middle" dominant-baseline="central">Institutions</text>
+  <text class="ts" x="428" y="212" text-anchor="middle" dominant-baseline="central">CFR · Bilderberg · IMF</text>
+</g>
+<g class="c-coral">
+  <rect x="518" y="178" width="134" height="44" rx="8"/>
+  <text class="th" x="585" y="196" text-anchor="middle" dominant-baseline="central">Godmen &amp; elites</text>
+  <text class="ts" x="585" y="212" text-anchor="middle" dominant-baseline="central">Legitimacy exchange</text>
+</g>
 
-<rect x="198" y="178" width="140" height="44" rx="8" class="c-coral-rect"/>
-<text class="th" x="268" y="196" text-anchor="middle" dominant-baseline="central" class="c-coral-text">Financial control</text>
-<text class="ts" x="268" y="212" text-anchor="middle" dominant-baseline="central" class="c-coral-text">Fed · BIS · fiat system</text>
-
-<rect x="358" y="178" width="140" height="44" rx="8" class="c-coral-rect"/>
-<text class="th" x="428" y="196" text-anchor="middle" dominant-baseline="central" class="c-coral-text">Institutions</text>
-<text class="ts" x="428" y="212" text-anchor="middle" dominant-baseline="central" class="c-coral-text">CFR · Bilderberg · IMF</text>
-
-<rect x="518" y="178" width="134" height="44" rx="8" class="c-coral-rect"/>
-<text class="th" x="585" y="196" text-anchor="middle" dominant-baseline="central" class="c-coral-text">Godmen &amp; elites</text>
-<text class="ts" x="585" y="212" text-anchor="middle" dominant-baseline="central" class="c-coral-text">Legitimacy exchange</text>
-
-<!-- apex arrows -->
+<!-- apex → mid arrows -->
 <line x1="270" y1="147" x2="148" y2="178" stroke="#D85A30" stroke-width="0.8" marker-end="url(#arrow)" fill="none"/>
 <line x1="310" y1="147" x2="268" y2="178" stroke="#D85A30" stroke-width="0.8" marker-end="url(#arrow)" fill="none"/>
 <line x1="370" y1="147" x2="428" y2="178" stroke="#D85A30" stroke-width="0.8" marker-end="url(#arrow)" fill="none"/>
 <line x1="420" y1="147" x2="570" y2="178" stroke="#D85A30" stroke-width="0.8" marker-end="url(#arrow)" fill="none"/>
 
 <!-- FINANCIAL SLAVERY -->
-<rect x="38" y="258" width="284" height="52" rx="8" class="c-amber-rect"/>
-<text class="th" x="180" y="278" text-anchor="middle" dominant-baseline="central" class="c-amber-text">Financial slavery mechanism</text>
-<text class="ts" x="180" y="296" text-anchor="middle" dominant-baseline="central" class="c-amber-text">Fiat → cycles → retail exit liquidity → reset</text>
+<g class="c-amber">
+  <rect x="38" y="258" width="284" height="52" rx="8"/>
+  <text class="th" x="180" y="278" text-anchor="middle" dominant-baseline="central">Financial slavery mechanism</text>
+  <text class="ts" x="180" y="296" text-anchor="middle" dominant-baseline="central">Fiat → cycles → retail exit liquidity → reset</text>
+</g>
 
 <!-- REGULATORY ARBITRAGE -->
-<rect x="358" y="258" width="294" height="52" rx="8" class="c-amber-rect"/>
-<text class="th" x="505" y="278" text-anchor="middle" dominant-baseline="central" class="c-amber-text">Regulatory arbitrage</text>
-<text class="ts" x="505" y="296" text-anchor="middle" dominant-baseline="central" class="c-amber-text">Law lags → elite exits → law legitimises new</text>
+<g class="c-amber">
+  <rect x="358" y="258" width="294" height="52" rx="8"/>
+  <text class="th" x="505" y="278" text-anchor="middle" dominant-baseline="central">Regulatory arbitrage</text>
+  <text class="ts" x="505" y="296" text-anchor="middle" dominant-baseline="central">Law lags → elite exits → law legitimises new</text>
+</g>
 
 <line x1="268" y1="222" x2="200" y2="258" stroke="#BA7517" stroke-width="0.8" marker-end="url(#arrow)" fill="none"/>
 <line x1="428" y1="222" x2="480" y2="258" stroke="#BA7517" stroke-width="0.8" marker-end="url(#arrow)" fill="none"/>
 
 <!-- PSYCHOLOGICAL CONTROL -->
-<rect x="38" y="346" width="614" height="52" rx="8" class="c-purple-rect"/>
-<text class="th" x="345" y="366" text-anchor="middle" dominant-baseline="central" class="c-purple-text">Psychological enclosure (Gramsci's hegemony)</text>
-<text class="ts" x="345" y="384" text-anchor="middle" dominant-baseline="central" class="c-purple-text">Aspiration · Debt · Financialised hope · Left-right divide · Feels like freedom</text>
+<g class="c-purple">
+  <rect x="38" y="346" width="614" height="52" rx="8"/>
+  <text class="th" x="345" y="366" text-anchor="middle" dominant-baseline="central">Psychological enclosure (Gramsci's hegemony)</text>
+  <text class="ts" x="345" y="384" text-anchor="middle" dominant-baseline="central">Aspiration · Debt · Financialised hope · Left-right divide · Feels like freedom</text>
+</g>
 
 <line x1="180" y1="310" x2="200" y2="346" stroke="#7F77DD" stroke-width="0.8" marker-end="url(#arrow)" fill="none"/>
 <line x1="505" y1="310" x2="480" y2="346" stroke="#7F77DD" stroke-width="0.8" marker-end="url(#arrow)" fill="none"/>
 
 <!-- MIDDLE CLASS TRAP -->
-<rect x="38" y="430" width="280" height="52" rx="8" class="c-purple-rect"/>
-<text class="th" x="178" y="450" text-anchor="middle" dominant-baseline="central" class="c-purple-text">Middle class trap</text>
-<text class="ts" x="178" y="468" text-anchor="middle" dominant-baseline="central" class="c-purple-text">Merit illusion · scarcity mindset · no lateral trust</text>
+<g class="c-purple">
+  <rect x="38" y="430" width="280" height="52" rx="8"/>
+  <text class="th" x="178" y="450" text-anchor="middle" dominant-baseline="central">Middle class trap</text>
+  <text class="ts" x="178" y="468" text-anchor="middle" dominant-baseline="central">Merit illusion · scarcity mindset · no lateral trust</text>
+</g>
 
 <!-- INDIA LAYER -->
-<rect x="358" y="430" width="294" height="52" rx="8" class="c-teal-rect"/>
-<text class="th" x="505" y="450" text-anchor="middle" dominant-baseline="central" class="c-teal-text">India layer</text>
-<text class="ts" x="505" y="468" text-anchor="middle" dominant-baseline="central" class="c-teal-text">1991 open → SIP liquidity → Cantillon beneficiaries</text>
+<g class="c-teal">
+  <rect x="358" y="430" width="294" height="52" rx="8"/>
+  <text class="th" x="505" y="450" text-anchor="middle" dominant-baseline="central">India layer</text>
+  <text class="ts" x="505" y="468" text-anchor="middle" dominant-baseline="central">1991 open → SIP liquidity → Cantillon beneficiaries</text>
+</g>
 
 <line x1="280" y1="398" x2="200" y2="430" stroke="#7F77DD" stroke-width="0.8" marker-end="url(#arrow)" fill="none"/>
 <line x1="420" y1="398" x2="470" y2="430" stroke="#1D9E75" stroke-width="0.8" marker-end="url(#arrow)" fill="none"/>
 
-<!-- INDIVIDUAL -->
-<rect x="38" y="518" width="614" height="44" rx="8" class="c-teal-rect"/>
-<text class="th" x="345" y="536" text-anchor="middle" dominant-baseline="central" class="c-teal-text">The aware individual — conscious participation, not exit</text>
-<text class="ts" x="345" y="552" text-anchor="middle" dominant-baseline="central" class="c-teal-text">Real assets · minimal debt · lateral network · santosha as competitive edge</text>
+<!-- INDIVIDUAL POSITION -->
+<g class="c-teal">
+  <rect x="38" y="518" width="614" height="44" rx="8"/>
+  <text class="th" x="345" y="536" text-anchor="middle" dominant-baseline="central">The aware individual — conscious participation, not exit</text>
+  <text class="ts" x="345" y="552" text-anchor="middle" dominant-baseline="central">Real assets · minimal debt · lateral network · santosha as competitive edge</text>
+</g>
 
 <line x1="178" y1="482" x2="250" y2="518" stroke="#1D9E75" stroke-width="0.8" marker-end="url(#arrow)" fill="none"/>
 <line x1="505" y1="482" x2="420" y2="518" stroke="#1D9E75" stroke-width="0.8" marker-end="url(#arrow)" fill="none"/>
 
 <!-- BRIDGE -->
-<line x1="345" y1="624" x2="345" y2="664" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrow)" fill="none"/>
-<text x="360" y="648" font-size="11" fill="#888888" font-family="-apple-system,sans-serif">the system exploits what's unresolved within</text>
+<line x1="345" y1="624" x2="345" y2="664" stroke="#aaa" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrow)" fill="none"/>
+<text x="360" y="642" font-size="11" fill="#888" font-family="-apple-system,sans-serif">the system exploits what's unresolved within</text>
 
 <!-- INNER WORLD CONTAINER -->
-<rect x="28" y="668" width="624" height="288" rx="16" class="c-blue-rect" fill-opacity="0.13"/>
-<text class="ts" x="50" y="690" class="c-blue-text">The inner world</text>
+<g class="c-blue">
+  <rect x="28" y="668" width="624" height="288" rx="16" fill-opacity="0.13"/>
+  <text class="ts" x="50" y="690" font-size="12">The inner world</text>
+</g>
 
 <!-- THREE LAYERS -->
-<rect x="38" y="700" width="190" height="72" rx="8" class="c-blue-rect"/>
-<text class="th" x="133" y="722" text-anchor="middle" dominant-baseline="central" class="c-blue-text">Layer 1 — Body</text>
-<text class="ts" x="133" y="740" text-anchor="middle" dominant-baseline="central" class="c-blue-text">Ancient genes · evolution</text>
-<text class="ts" x="133" y="756" text-anchor="middle" dominant-baseline="central" class="c-blue-text">Fear · desire · tribal drive</text>
-
-<rect x="245" y="700" width="190" height="72" rx="8" class="c-blue-rect"/>
-<text class="th" x="340" y="722" text-anchor="middle" dominant-baseline="central" class="c-blue-text">Layer 2 — Mind</text>
-<text class="ts" x="340" y="740" text-anchor="middle" dominant-baseline="central" class="c-blue-text">Family · culture · epigenetics</text>
-<text class="ts" x="340" y="756" text-anchor="middle" dominant-baseline="central" class="c-blue-text">Inherited trauma · beliefs</text>
-
-<rect x="452" y="700" width="200" height="72" rx="8" class="c-blue-rect"/>
-<text class="th" x="552" y="722" text-anchor="middle" dominant-baseline="central" class="c-blue-text">Layer 3 — Soul</text>
-<text class="ts" x="552" y="740" text-anchor="middle" dominant-baseline="central" class="c-blue-text">Sanskaras · lifetimes</text>
-<text class="ts" x="552" y="756" text-anchor="middle" dominant-baseline="central" class="c-blue-text">Ancient civilisation karma</text>
+<g class="c-blue">
+  <rect x="38" y="700" width="190" height="72" rx="8"/>
+  <text class="th" x="133" y="722" text-anchor="middle" dominant-baseline="central">Layer 1 — Body</text>
+  <text class="ts" x="133" y="740" text-anchor="middle" dominant-baseline="central">Ancient genes · evolution</text>
+  <text class="ts" x="133" y="756" text-anchor="middle" dominant-baseline="central">Fear · desire · tribal drive</text>
+</g>
+<g class="c-blue">
+  <rect x="245" y="700" width="190" height="72" rx="8"/>
+  <text class="th" x="340" y="722" text-anchor="middle" dominant-baseline="central">Layer 2 — Mind</text>
+  <text class="ts" x="340" y="740" text-anchor="middle" dominant-baseline="central">Family · culture · epigenetics</text>
+  <text class="ts" x="340" y="756" text-anchor="middle" dominant-baseline="central">Inherited trauma · beliefs</text>
+</g>
+<g class="c-blue">
+  <rect x="452" y="700" width="200" height="72" rx="8"/>
+  <text class="th" x="552" y="722" text-anchor="middle" dominant-baseline="central">Layer 3 — Soul</text>
+  <text class="ts" x="552" y="740" text-anchor="middle" dominant-baseline="central">Sanskaras · lifetimes</text>
+  <text class="ts" x="552" y="756" text-anchor="middle" dominant-baseline="central">Ancient civilisation karma</text>
+</g>
 
 <!-- PREDISPOSITION -->
-<rect x="38" y="796" width="614" height="40" rx="8" class="c-gray-rect"/>
-<text class="th" x="345" y="811" text-anchor="middle" dominant-baseline="central" class="c-gray-text">Predisposition — the sum of all three layers, running automatically</text>
-<text class="ts" x="345" y="827" text-anchor="middle" dominant-baseline="central" class="c-gray-text">Most humans live here entirely · system exploits this layer</text>
+<g class="c-gray">
+  <rect x="38" y="796" width="614" height="40" rx="8"/>
+  <text class="th" x="345" y="811" text-anchor="middle" dominant-baseline="central">Predisposition — the sum of all three layers, running automatically</text>
+  <text class="ts" x="345" y="827" text-anchor="middle" dominant-baseline="central">Most humans live here entirely · system exploits this layer</text>
+</g>
 
 <line x1="133" y1="772" x2="180" y2="796" stroke="#378ADD" stroke-width="0.8" marker-end="url(#arrow)" fill="none"/>
 <line x1="340" y1="772" x2="340" y2="796" stroke="#378ADD" stroke-width="0.8" marker-end="url(#arrow)" fill="none"/>
 <line x1="552" y1="772" x2="500" y2="796" stroke="#378ADD" stroke-width="0.8" marker-end="url(#arrow)" fill="none"/>
 
 <!-- VIVEK BUDDHI -->
-<rect x="38" y="862" width="614" height="52" rx="8" class="c-teal-rect"/>
-<text class="th" x="345" y="882" text-anchor="middle" dominant-baseline="central" class="c-teal-text">Vivek buddhi — the witness (Sakshi)</text>
-<text class="ts" x="345" y="900" text-anchor="middle" dominant-baseline="central" class="c-teal-text">Gap between stimulus and response · grows with practice · makes one un-exploitable</text>
+<g class="c-teal">
+  <rect x="38" y="862" width="614" height="52" rx="8"/>
+  <text class="th" x="345" y="882" text-anchor="middle" dominant-baseline="central">Vivek buddhi — the witness (Sakshi)</text>
+  <text class="ts" x="345" y="900" text-anchor="middle" dominant-baseline="central">Gap between stimulus and response · grows with practice · makes one un-exploitable</text>
+</g>
 
 <line x1="345" y1="836" x2="345" y2="862" stroke="#1D9E75" stroke-width="1" marker-end="url(#arrow)" fill="none"/>
 
 <!-- FOOTER -->
-<text x="345" y="940" text-anchor="middle" font-size="11" fill="#888888" font-family="-apple-system,sans-serif">All traditions converge here — Vedanta · Buddhism · Stoicism · Sufism · Frankl</text>
-<text x="345" y="957" text-anchor="middle" font-size="11" fill="#888888" font-family="-apple-system,sans-serif">Quest of the human race: go beyond nature's predisposition, take control of life</text>
+<text x="345" y="940" text-anchor="middle" font-size="11" fill="#888" font-family="-apple-system,sans-serif">All traditions converge here — Vedanta · Buddhism · Stoicism · Sufism · Frankl</text>
+<text x="345" y="957" text-anchor="middle" font-size="11" fill="#888" font-family="-apple-system,sans-serif">Quest of the human race: go beyond nature's predisposition, take control of life</text>
 
 <!-- FEEDBACK ARROW -->
-<path d="M652 900 Q670 730 652 562" fill="none" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
-<text x="662" y="780" text-anchor="middle" font-size="10" fill="#888888" font-family="-apple-system,sans-serif" transform="rotate(90,662,780)">vivek buddhi → un-exploitable</text>
+<path d="M652 900 Q670 730 652 562" fill="none" stroke="#aaa" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+<text x="662" y="780" text-anchor="middle" font-size="10" fill="#888" font-family="-apple-system,sans-serif" transform="rotate(90,662,780)">vivek buddhi → un-exploitable</text>
 
 </svg>
