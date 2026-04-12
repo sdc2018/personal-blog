@@ -4,6 +4,7 @@ module.exports = function(eleventyConfig) {
 
   // Copy static files to output
   eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("robots.txt");
   eleventyConfig.addPassthroughCopy("llms.txt");
 

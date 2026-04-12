@@ -139,6 +139,21 @@ header {
   margin: 1.5rem 0;
 }
 
+.post-content figure {
+  margin: 2rem 0;
+}
+
+.post-content figure img {
+  margin-bottom: 0.5rem;
+}
+
+.post-content figcaption {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  font-style: italic;
+  text-align: center;
+}
+
 .back-link {
   display: inline-block;
   margin-top: 3rem;
