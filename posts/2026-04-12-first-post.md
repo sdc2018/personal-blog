@@ -13,7 +13,7 @@ This blog is where I'll share thoughts on building a business, the pursuit of a 
 
 ## What to expect
 
-- Lessons from running multiple tech startups and consuling companies
+- Lessons from running multiple tech startups and consulting companies
 - Thoughts on data, AI, and what's actually useful vs. hype
 - Observations on life, patience, and the long game
 
